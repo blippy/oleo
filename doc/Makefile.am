@@ -21,7 +21,7 @@ oleo.info:	oleo.texi $(TEXIS)
 html_DATA=	oleo.html
 
 oleo.html:	$(srcdir)/oleo.texi ${TEXIS} # $(top_builddir)/doc/texi2html
-		makeinfo --html $(srcdir)/oleo.texi
+		makeinfo --no-split --html $(srcdir)/oleo.texi
 
 DISTCLEANFILES = $(html_DATA)
 MAINTAINERCLEANFILES = Makefile.in
