@@ -5,7 +5,8 @@
 
 localedir = $(prefix)/share/locale
 
-AUTOMAKE_OPTIONS = ../lib/ansi2knr dejagnu
+# AUTOMAKE_OPTIONS = ../lib/ansi2knr dejagnu 26/3
+AUTOMAKE_OPTIONS = dejagnu
 
 EXTRA_DIST=	xbase.cpp oleo_xb.h mysql.c parse.h gpl.sed
 CLEANFILES = parse.c parse.h posixtm.c posixtm.h

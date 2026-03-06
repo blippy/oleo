@@ -36,6 +36,8 @@
 #define YYSTYPE struct node *
 #include "parse.h"
 
+extern YYSTYPE yylval; // 26/3
+
 #define ERROR -1
 
 /* from parse.y */

@@ -87,7 +87,7 @@ fi
 dnl
 dnl How good is the C compiler ?
 dnl
-AM_C_PROTOTYPES
+dnlAM_C_PROTOTYPES // 26/3
 
 dnl
 dnl Checks for libraries.
@@ -372,5 +372,6 @@ AC_SUBST(include_sciplot)
 AC_SUBST(link_sciplot)
 
 dnl po/Makefile.in 
-AC_OUTPUT([Makefile oleobug doc/Makefile doc/texi2html lib/Makefile src/Makefile m4/Makefile Xresources/Makefile examples/Makefile oleo.spec afm/Makefile ],[]) 
+dnl 26/3 supressed doc/Makefile doc/texi2html
+AC_OUTPUT([Makefile oleobug lib/Makefile src/Makefile m4/Makefile Xresources/Makefile examples/Makefile oleo.spec afm/Makefile ],[]) 
 
