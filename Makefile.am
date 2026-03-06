@@ -12,6 +12,7 @@ D=	`date +%G%m%d.%H%M%S`
 
 # 26/3 removed doc
 SUBDIRS = lib src m4 Xresources examples afm #po
+SUBDIRS += doc
 
 # Remove this file here (it is created via configure), not from within intl.
 # DISTCLEANFILES = intl/libintl.h

@@ -373,5 +373,6 @@ AC_SUBST(link_sciplot)
 
 dnl po/Makefile.in 
 dnl 26/3 supressed doc/Makefile doc/texi2html
+AC_OUTPUT(doc/Makefile)
 AC_OUTPUT([Makefile oleobug lib/Makefile src/Makefile m4/Makefile Xresources/Makefile examples/Makefile oleo.spec afm/Makefile ],[]) 
 
